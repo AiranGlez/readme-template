@@ -1,100 +1,96 @@
-# 📌 Nombre del Proyecto
+# 📌 Project name
 
-> **Breve descripción:** Explica en una o dos líneas el propósito del proyecto y sus principales características.  
+> **Project description:** Explain in one or two lines the purpose of the project and its main features..  
 
 ---
 
-## 🗂️ Tabla de Contenidos
-1. [Descripción / Description](#descripción--description)
-2. [Instalación / Installation](#instalación--installation)
-3. [Uso / Usage](#uso--usage)
-4. [Estructura del Proyecto / Project Structure](#estructura-del-proyecto--project-structure)
-5. [Configuración / Configuration](#configuración--configuration)
+## 🗂️ Index
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Project Structure](#project-structure)
+5. [Configuration](#configuration)
 6. [Testing](#testing)
-7. [Contribución / Contributing](#contribución--contributing)
-8. [Licencia / License](#licencia--license)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ---
 
-## 📝 Descripción
+## 📝 Description
 
-Agrega aquí una descripción más detallada del proyecto. Explica:  
-- El problema que resuelve o el objetivo que persigue.  
-- Tecnologías principales utilizadas (Python, DevOps, etc.)  
-- Principales funcionalidades y casos de uso.
+Add a more detailed description of the project here. Explain:
+
+    The problem it solves or the goal it pursues.
+    Main technologies used (Python, DevOps, etc.)
+    Key features and use cases.
 
 ---
 
-## ⚙️ Instalación
+## ⚙️ Installation
 
-Sigue estos pasos para configurar el entorno del proyecto:
+Follow these steps to set up the project environment:
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tuusuario/tu_proyecto.git
-   cd tu_proyecto
-2. Crea y activa un entorno virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate    # o `venv\Scripts\activate` en Windows
-3. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/AiranGlez/python-basics
+   cd app_name
 
 ---
 
-## 🚀 Uso
+## 🚀 Usage
 
-Ejemplo para ejecutar el proyecto o sus módulos principales:
+Example to run the project or its main module:
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
-tu_proyecto/
-├── src/                     # Código fuente principal
+your_project/
+├── src/                     # Main source code
 │   ├── __init__.py
-│   ├── main.py              # Archivo de entrada principal
-│   └── module/              # Módulos adicionales
+│   ├── main.py              # Main entry file
+│   └── module/              # Additional modules
 │       └── __init__.py
-├── tests/                   # Pruebas unitarias y de integración
+├── tests/                   # Unit and integration tests
 │   ├── __init__.py
 │   └── test_main.py
-├── config/                  # Archivos de configuración
+├── config/                  # Configuration files
 │   └── settings.yml
-├── scripts/                 # Scripts adicionales y tareas DevOps
-├── Dockerfile               # Configuración de Docker (opcional)
-├── docker-compose.yml       # Configuración de Docker Compose (opcional)
-├── requirements.txt         # Dependencias del proyecto
-├── .gitignore               # Archivos ignorados por git
-└── README.md                # Documentación del proyecto
+├── scripts/                 # Additional scripts and DevOps tasks
+├── Dockerfile               # Docker configuration (optional)
+├── docker-compose.yml       # Docker Compose configuration (optional)
+├── requirements.txt         # Project dependencies
+├── .gitignore               # Files ignored by git
+└── README.md                # Project documentation
 
 ---
 
-## 🔧 Configuración
+## 🔧 Configuration
 
-* Variables de entorno: Indica cómo configurar variables de entorno esenciales.
-* Archivos de configuración: Explica el propósito del archivo settings.yml en el directorio config.
+* Environment variables: Explain how to configure essential environment variables.
+* Configuration files: Explain the purpose of the settings.yml file in the config directory.
 
 ---
 
 ## ✅ Testing
 
-1. Ejecuta las pruebas para validar la funcionalidad del proyecto:
+1. Run the tests to validate the functionality of the project::
    ```bash
    pytest tests/
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la **Licencia MIT**. Esto significa que puedes usar, modificar y distribuir el código de manera gratuita, siempre que incluyas una copia de la licencia en cualquier distribución o modificación del código. 
+This project is under the MIT License. This means you are free to use, modify, and distribute the code, as long as you include a copy of the license in any distribution or modification of the code.
 
-### 📝 Condiciones:
-- Se concede permiso para utilizar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del software.
-- El código se proporciona "tal cual", sin ninguna garantía de ningún tipo, expresa o implícita, incluyendo pero no limitándose a las garantías de comercialización o idoneidad para un propósito particular.
+### 📝 Terms:
 
-### ✅ Propósito:
-Este código es proporcionado con fines educativos y formativos. Puedes usarlo para aprender, modificarlo y compartirlo, pero no debe ser utilizado con fines comerciales sin la debida autorización adicional.
+Permission is granted to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
+The code is provided "as is," without any warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
 
-Para más información, consulta el archivo [LICENSE](LICENSE) para los detalles completos de la Licencia MIT.
+### ✅ Purpose:
+
+This code is provided for educational and training purposes. You may use it to learn, modify, and share it, but it should not be used for commercial purposes without additional authorization.
+
+For more information, refer to the LICENSE file for the full details of the MIT License.
